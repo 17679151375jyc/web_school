@@ -1,0 +1,317 @@
+.icon_css{
+    float: left ;
+    font-size: 20px;
+    color: #666;
+    margin: 20px;
+    cursor: pointer;
+    overflow-x hidden;
+    overflow-y auto
+    margin-bottom 0
+}
+.cont_box{
+    width 100%
+    max-height 96%
+    clear both
+}
+.div_form_css{
+    width 450px
+    border 1px solid #38f
+    border-radius 5px
+    margin 20px auto
+    padding 0 20px 15px 10px
+    background-color: #fff
+}
+.li_css{
+    margin-top 15px
+    width 100%
+    height 45px
+}
+.lianjie_css{
+    text-decoration underline
+    cursor pointer
+} 
+.lianjie_css:hover{
+    color #38f
+    text-decoration underline 
+}
+.log_img_css{
+    width 70%
+}
+.he_css{
+    font-size 25px 
+    color #409EFF
+}
+.img_logo{
+    width 50px;
+    height 50px;
+    margin-bottom 20px
+}
+.sex_box{
+    width 100%
+    height 45px
+}
+.register_css{
+    width 67%
+}
+
+
+// 首页第一页及导航条样式
+
+>>>.el-drawer__body {
+  background-color: #E7E8FA;
+}
+
+>>>.el-message {
+  top: 40vh !important;
+  min-width: 160px !important;
+}
+
+>>>.el-carousel__indicators--vertical {
+  left: 20px;
+  top: 48%;
+}
+
+>>>.el-carousel__indicator--vertical {
+  width: 50px;
+  height: 50px;
+  border: 7px solid #fff;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+>>>.el-carousel__indicator--vertical .el-carousel__button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 0;
+  margin-top: -0.5px;
+  opacity: 1;
+  background-color: transparent;
+}
+
+>>>.el-carousel__indicator.is-active button {
+  background-image: linear-gradient(#E0E1F8, #7882F7);
+  border: 0;
+  width: 50px;
+  height: 51px;
+  margin-top: -0.5px;
+}
+
+.el-submenu:hover {
+  background-color: #409EFF;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.page_backimg:nth-child(1) {
+  // background: url('~@/img/bjImg/1.jpg') no-repeat;
+  // background-size: 100% 100%;
+  background-image: linear-gradient(to top,#949DF8, #68EFF8 , #ffffff,#68EFF8 , #949DF8);
+}
+
+.page_backimg:nth-child(2) {
+  // background: url('~@/img/bjImg/2.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+
+.page_backimg:nth-child(3) {
+  // background: url('~@/img/bjImg/3.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+
+.div_box {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+>>>.el-menu--horizontal>.el-menu-item, .el-menu--horizontal>.el-submenu {
+  float: right;
+  width: 9vw;
+  text-align: center;
+}
+
+.info_css {
+  width: 400px;
+  position: fixed;
+  z-index: 200;
+  height: 60px;
+}
+
+.header_img {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border: 3px solid #409EFF;
+  border-radius: 50%;
+  float: left;
+}
+
+.info_box_css {
+  height: 60px;
+  width: 200px;
+  float: left;
+  margin-left: 10px;
+  color: #555;
+}
+
+.info_zh_css {
+  height: 30px;
+  line-height: 30px;
+}
+
+.out_css {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 15px 0;
+  float: left;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  color: #1890FF;
+  cursor: pointer;
+}
+
+.no_land_css {
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.title_span_css{
+  position absolute
+  top 100px
+  left calc(50% - 350px)
+  height 70px
+  line-height 75px
+  display block
+  width 700px
+  text-align center
+  background-color #949DF8
+  font-family '华文行楷'
+  color #ffffff
+  font-size 50px
+  border-radius 10px
+}
+//轮播图1
+.page_box1{
+  width 500px
+  height 300px
+  position absolute
+  top 250px
+  left 35%
+  transform rotate(-10deg)
+  border 2px solid #6EAFF9
+  border-radius 3px
+  overflow hidden
+}
+//轮播图2
+.page_box2{
+  overflow hidden
+  width 500px
+  height 300px
+  position absolute
+  top 450px
+  left 55%
+  transform rotate(10deg)
+  border 2px solid #6EAFF9
+  border-radius 3px
+}
+.myCanvas{
+  opacity 0.7
+  position absolute
+  width 400px
+  top 59px
+  right 0
+  height 100vh
+}
+.cont_p_css1{
+  position absolute
+  right 93px
+  top 80px
+  // border 1px solid #ffffff
+  width 200px
+  height 110px  
+  padding 0 5px
+}
+.cont_p_css2{
+  color #FFF
+  position absolute
+  display block
+  right 200px
+  top 235px
+  width 167px
+  height 100px  
+  padding 0 5px
+  font-size 18px
+  text-align center
+}
+//问题标语
+.wen_css{
+  position absolute
+  width 280px
+  min-height 200px
+  border 5px solid #fff
+  left 150px
+  background-color #65A6ED
+  border-radius 10px 
+  padding 10px
+  top 500px
+  color #fff  
+  font-size 20px
+}
+.wen_css i{
+  margin-right 0px
+  color #fff  
+  height 40px
+  width 20px
+  display block
+  float left
+  line-height 30px
+}
+.wen_css li{
+  height 40px
+  font-style italic 
+}
+//设施框
+.defail_css{
+  top 185px
+  position absolute
+  width 400px
+  height 260px
+  border 5px solid #fff
+  left 150px
+  background-color #65A6ED
+  border-radius 10px 
+  padding 10px
+}
+.defail_css li{
+  width 130px
+  min-height 80px
+  float left 
+  display flex
+  align-items center
+  flex-direction column
+  margin-top -1px 
+  color #fff
+}
+.defail_css li img{
+  margin-top 5px
+  border 1px solid #fff
+  width 90px
+  height 60px
+}
+.hengxian_css{
+  position: absolute
+  bottom: 50px
+  display: block
+  left 10px
+  right 10px
+  height 2px
+  background-color: #fff  
+  border-radius: 30px
+}
